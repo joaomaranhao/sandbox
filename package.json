@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "João Maranhão <joaofelipemaranhao@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsnd src/index.ts",
+    "test": "jest",
+    "test:w": "jest --watch"
+  },
   "dependencies": {
     "@types/jest": "^29.0.0",
     "eslint": "^8.0.1",
